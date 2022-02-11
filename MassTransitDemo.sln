@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitDemo.Consumer2", "MassTransitDemo.Consumer2\MassTransitDemo.Consumer2.csproj", "{D4033C55-5515-4909-9159-82F5C365E026}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{25D6F6C1-45E4-49F5-A854-07B526D428A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25D6F6C1-45E4-49F5-A854-07B526D428A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25D6F6C1-45E4-49F5-A854-07B526D428A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4033C55-5515-4909-9159-82F5C365E026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4033C55-5515-4909-9159-82F5C365E026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4033C55-5515-4909-9159-82F5C365E026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4033C55-5515-4909-9159-82F5C365E026}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

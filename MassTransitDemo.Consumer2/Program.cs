@@ -4,15 +4,15 @@ using System.Net.Security;
 using System.Security.Authentication;
 using System.Security.Cryptography.X509Certificates;
 using MassTransit;
-using MassTransitDemo.Consumer.Consumers;
-using MassTransitDemo.Consumer2.Consumers;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using MassTransitDemo.Consumer2.Consumers;
+using MassTransitDemo.Consumer2;
 
-namespace MassTransitDemo.Consumer
+namespace MassTransitDemo.Consumer2
 {
     public class Program
     {
@@ -37,8 +37,7 @@ namespace MassTransitDemo.Consumer
 
                     services.AddMassTransit(cfg =>
                     {
-                        cfg.AddConsumer<MessageConsumer>(typeof(MessageConsumerDefinition));
-
+                        cfg.AddConsumer<MessageConsumer2>(typeof(MessageConsumer2Definition));
                         cfg.AddBus(context => ConfigureBus(context));
                     });
 
