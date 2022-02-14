@@ -1,7 +1,7 @@
-﻿using MassTransit;
-using MassTransit.Definition;
+﻿using GreenPipes;
+using MassTransit;
 using MassTransit.ConsumeConfigurators;
-using GreenPipes;
+using MassTransit.Definition;
 
 namespace MassTransitDemo.Consumer2.Consumers
 {

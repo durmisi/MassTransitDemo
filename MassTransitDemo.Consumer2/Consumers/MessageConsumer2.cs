@@ -1,7 +1,6 @@
 ﻿using MassTransit;
-using MassTransitDemo.Contracts;
+using MassTransitDemo.Common.Contracts;
 using Microsoft.Extensions.Logging;
-using MassTransitDemo.Consumer2.Consumers;
 
 namespace MassTransitDemo.Consumer2.Consumers
 {

@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 using MassTransit;
-using MassTransitDemo.Contracts;
+using MassTransitDemo.Common.Contracts;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MassTransitDemo.Api.Controllers

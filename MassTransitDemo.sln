@@ -11,15 +11,15 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MassTransitDemo.Publisher", "MassTransitDemo.Publisher\MassTransitDemo.Publisher.csproj", "{27EED1BF-6625-40AD-A857-50A0BB43099A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MassTransitDemo.Contracts", "MassTransitDemo.Contracts\MassTransitDemo.Contracts.csproj", "{25D6F6C1-45E4-49F5-A854-07B526D428A3}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{09A98E42-E93C-40E4-90FB-2C49F0267ADC}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitDemo.Consumer2", "MassTransitDemo.Consumer2\MassTransitDemo.Consumer2.csproj", "{D4033C55-5515-4909-9159-82F5C365E026}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MassTransitDemo.Consumer2", "MassTransitDemo.Consumer2\MassTransitDemo.Consumer2.csproj", "{D4033C55-5515-4909-9159-82F5C365E026}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitDemo.Common", "MassTransitDemo.Common\MassTransitDemo.Common.csproj", "{4F201EBF-8C94-4A3E-98EE-3AB838312208}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,14 +43,14 @@ Global
 		{27EED1BF-6625-40AD-A857-50A0BB43099A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27EED1BF-6625-40AD-A857-50A0BB43099A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27EED1BF-6625-40AD-A857-50A0BB43099A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{25D6F6C1-45E4-49F5-A854-07B526D428A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{25D6F6C1-45E4-49F5-A854-07B526D428A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{25D6F6C1-45E4-49F5-A854-07B526D428A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{25D6F6C1-45E4-49F5-A854-07B526D428A3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D4033C55-5515-4909-9159-82F5C365E026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D4033C55-5515-4909-9159-82F5C365E026}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4033C55-5515-4909-9159-82F5C365E026}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4033C55-5515-4909-9159-82F5C365E026}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F201EBF-8C94-4A3E-98EE-3AB838312208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F201EBF-8C94-4A3E-98EE-3AB838312208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F201EBF-8C94-4A3E-98EE-3AB838312208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F201EBF-8C94-4A3E-98EE-3AB838312208}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

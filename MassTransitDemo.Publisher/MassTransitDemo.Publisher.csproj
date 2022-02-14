@@ -19,6 +19,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="MassTransit" Version="7.3.1" />
+		<PackageReference Include="MassTransit.Azure.ServiceBus.Core" Version="7.3.1" />
 		<PackageReference Include="MassTransit.RabbitMQ" Version="7.3.1" />
 		<PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="7.3.1" />
 		<PackageReference Include="Microsoft.Extensions.Configuration.CommandLine" Version="6.0.0" />
@@ -34,7 +35,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\MassTransitDemo.Contracts\MassTransitDemo.Contracts.csproj" />
+		<ProjectReference Include="..\MassTransitDemo.Common\MassTransitDemo.Common.csproj" />
 	</ItemGroup>
 
 </Project>
