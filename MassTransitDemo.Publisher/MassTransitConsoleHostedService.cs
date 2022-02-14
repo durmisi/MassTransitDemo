@@ -1,5 +1,5 @@
 ﻿using MassTransit;
-using MassTransitDemo.Common.Contracts;
+using MassTransitDemo.Contracts;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 

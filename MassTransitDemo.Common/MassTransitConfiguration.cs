@@ -3,8 +3,8 @@ using System.Net.Security;
 using System.Security.Authentication;
 using System.Security.Cryptography.X509Certificates;
 using MassTransit;
-using MassTransitDemo.Common.Contracts;
 using MassTransitDemo.Common.Helpers;
+using MassTransitDemo.Contracts;
 using Microsoft.Extensions.Options;
 
 namespace MassTransitDemo.Common
